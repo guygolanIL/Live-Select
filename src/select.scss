@@ -5,6 +5,7 @@ $font-stack:    Helvetica, sans-serif;
     font: 100% $font-stack;
     max-width: $max-width;
     border: 1px solid black;
+    border-radius: 3px;
 
     .title-button {
         text-align: center;
@@ -38,7 +39,9 @@ $font-stack:    Helvetica, sans-serif;
         .option{
             padding: 10px;
             cursor: pointer;
+            border: 1px solid rgb(255, 255, 255);
             &:hover {
+                border: 1px solid rgb(158, 152, 152);
                 background-color: rgb(177, 255, 255);
             }
         }
