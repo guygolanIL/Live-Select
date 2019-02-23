@@ -1,0 +1,27 @@
+$max-width: 200px;
+$font-stack:    Helvetica, sans-serif;
+
+.select-container {
+    font: 100% $font-stack;
+    max-width: $max-width;
+    border: 1px solid black;
+
+    .title-button {
+        text-align: left;
+        width: $max-width;
+    }
+    input {
+        width: $max-width;
+    }
+
+    .dropdown.closed{
+        display: none; 
+    }
+
+    .dropdown {
+        .option{
+            cursor: pointer;
+        }
+    }
+        
+}
