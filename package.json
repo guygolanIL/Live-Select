@@ -1,0 +1,25 @@
+{
+  "name": "live-select",
+  "version": "1.0.0",
+  "description": "custom select element",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guygolanIL/Live-Select.git"
+  },
+  "author": "guy.golan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guygolanIL/Live-Select/issues"
+  },
+  "homepage": "https://github.com/guygolanIL/Live-Select#readme",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.2"
+  }
+}

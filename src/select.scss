@@ -7,8 +7,18 @@ $font-stack:    Helvetica, sans-serif;
     border: 1px solid black;
 
     .title-button {
-        text-align: left;
+        text-align: center;
         width: $max-width;
+        border: none;
+        color: rgb(79, 96, 251);
+        
+        padding:10px;
+
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        
+        cursor: pointer;
     }
     input {
         width: $max-width;
@@ -19,8 +29,18 @@ $font-stack:    Helvetica, sans-serif;
     }
 
     .dropdown {
+        
+        .options-div{
+            max-height: 15%;
+            overflow: auto;
+        }
+        
         .option{
+            padding: 10px;
             cursor: pointer;
+            &:hover {
+                background-color: rgb(177, 255, 255);
+            }
         }
     }
         
